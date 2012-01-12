@@ -1,0 +1,236 @@
+/*
+Theme Name: SEOsense
+Theme URI: http://www.bradjasper.com/projects/themes/SEOsense/
+Description: A theme for optimizing both SEO and AdSense
+Version: 0.1b
+Author: Brad Jasper
+*/
+
+/**		Structure		**/
+body, html {
+	margin: 0 auto;
+}
+
+#outer {
+	width: 990px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#inner {
+	float: left;
+	width: 75%;
+	margin: 100px 0 10px 5px;
+	text-align: center;
+}
+
+#content {
+	margin-top: 5px;
+	text-align: left;
+}
+
+#header {
+	height: 60px;
+	width: 960px;
+	position: absolute;
+	top: 0;
+}
+
+#sidebar {
+	float: right;
+	width: 23%;
+	margin: 100px 0 10px 0;
+}
+
+#footer {
+	position: absolute;
+	height: 20px;
+	width: 970px;
+}
+
+/**		Styling		**/
+a {
+	color: #206BA4;
+}
+
+a:hover {
+	color: #54A4DE;
+}
+
+a:visited {
+	color: #54A4DE;
+}
+
+body {
+	background: #F1EFE2;
+	font-size: 95%;
+	font-family: Georgia, Tahoma, Verdana, "Sans-serif";
+}
+
+#content {
+	background: #FFF;
+	padding: 5px 10px;
+	border: 2px solid #E7E4D3;
+}
+
+#header {
+	color: #5B5B5B;
+	padding: 10px 15px;
+	background: #E0F0AD;
+	border: 1px solid #BEDF5D;
+	border-width: 0 1px 1px 1px;
+}
+
+#header a {
+	display: block;
+	font-size: 220%;
+	color: #206BA4;
+	text-decoration: none;
+}
+
+#header span {
+	display: block;
+	padding: 5px 0;
+	font-size: 90%;
+}
+
+#sidebar {
+	background: #EBF4FA;
+	border: 1px solid #BBD9EE;
+}
+
+.entry {
+	padding: 5px 0 20px 0;
+	line-height: 22px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 20px;
+}
+
+.entry span {
+	display: block;
+	margin: 4px;
+	font-size: 70%;
+}
+
+h1 {
+	color: #FF9834;
+	margin: 0;
+	line-height: 30px;
+	font-size: 150%;
+}
+
+h2, h3, h4, h5 {
+	font-size: 110%;
+	color: #206BA4;
+	margin-top: 30px;
+}
+
+#comments, #respond {
+	margin-top: 0;
+}
+
+.entry h1 a {
+	color: #FF9834;
+}
+
+blockquote, code {
+	border-left: 2px solid #206BA4;
+	padding: 0 5px;
+	margin: 0 20px 0 20px;
+	background-color: #F9F9F9;
+}
+
+blockquote p, code p {
+	margin: 0;
+}
+
+#sidebar h3 {
+	margin: 0;
+	background: #BBD9EE;
+	color: #206BA4;
+	font-size: 90%;
+	padding: 2px 5px;
+}
+
+#sidebar ul {
+	margin: 5px 0 10px 23px;
+	padding: 0;
+}
+
+#sidebar ul li {
+	padding: 4px 0;
+}
+
+#footer {
+	border: 1px solid #E7E4D3;
+	background: #FBFBF9;
+	padding: 3px 10px;
+	display: block;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+#searchform {
+	margin: 10px 5px 0 0;
+	padding: 0;
+}
+
+#searchform #s {
+	width: 200px;
+}
+
+.comment-metadata {
+	margin: 4px 0;
+}
+
+.commentlist {
+	line-height: 25px;
+}
+
+#extra {
+	font-size: 70%;
+	margin: 20px 0 0 0;
+	padding: 5px;
+	border: 1px solid #E6E6E6;
+	background-color: #F9F9F9;
+}
+
+#searchhead {
+	font-size: 130%;
+	border-bottom: 1px solid #E6E6E6;
+	margin: 10px 0;
+}
+
+.ad-right {
+	float: right;
+	margin: 0 0 7px 7px;
+}
+
+.ad-left {
+	float: left;
+	margin: 0 7px 7px 0;
+}
+
+#prevnext {
+	margin-bottom: 15px;
+}
+
+#header-extras {
+	float: right;
+	text-align: right;
+}
+
+#header-extras img {
+	border: 0;
+	margin-right: 10px;
+}
+
+.entry ul, .entry ol {
+	line-height: 30px;
+}
